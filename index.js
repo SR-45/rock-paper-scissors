@@ -64,7 +64,7 @@ function playGame() {
     if (humanScore > computerScore) {
         return "You win the game";
     } else {
-        return "you lose the game";
+        return "You lose the game";
     }
 }
 
