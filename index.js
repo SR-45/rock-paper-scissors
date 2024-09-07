@@ -62,9 +62,9 @@ function playGame() {
     }
 
     if (humanScore > computerScore) {
-        return "You win the game";
+        return "You won the game!";
     } else {
-        return "You lose the game";
+        return "You lost the game";
     }
 }
 
