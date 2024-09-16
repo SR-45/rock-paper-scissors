@@ -1,17 +1,32 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
     <script src="index.js" async></script>
 </head>
+
 <body>
-    <div class="options">
     <h1>Make your choice to play</h1>
-    <button id="r" class="choice">Rock</button>
-    <button id="p"class="choice">Paper</button>
-    <button id="s"class="choice">Scissors</button>
-</div>
-<div class="results"></div>
+    <div class="options">
+        
+        <button id="r" class="choice">Rock</button>
+        <button id="p" class="choice">Paper</button>
+        <button id="s" class="choice">Scissors</button>
+    </div>
+    <div class="results">
+
+        <div class="curr-results"></div>
+        <div class="overall-results">
+            <div class="c-score">Computer Score: </div>
+            <div class="h-score">Human Score: </div>
+            <div class="final-score"></div>
+
+        </div>
+    </div>
+
+    <div><button id="reset">Reset</button></div>
 </body>
+
 </html>
