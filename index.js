@@ -53,22 +53,35 @@ function playRound(humanChoice, computerChoice) {
 
 }
 
-function playGame() {
+// function playGame() {
 
-    for (let i = 0; i < 5; i++) {
-        const humanSelection = getHumanChoice();
-        const computerSelection = getComputerChoice();
-        console.log(playRound(humanSelection, computerSelection));
-    }
+//     for (let i = 0; i < 5; i++) {
+//         const humanSelection = getHumanChoice();
+//         const computerSelection = getComputerChoice();
+//         console.log(playRound(humanSelection, computerSelection));
+//     }
 
-    if (humanScore > computerScore) {
-        return "You won the game!";
-    } else {
-        return "You lost the game";
-    }
-}
+//     if (humanScore > computerScore) {
+//         return "You won the game!";
+//     } else {
+//         return "You lost the game";
+//     }
+// }
 
-console.log(playGame());
+const r = document.querySelector("#r");
+r.addEventListener('click',function() {
+    alert('rock');
+});
+
+const p = document.querySelector("#p");
+p.addEventListener("click", () => {
+    alert("paper");
+})
+
+const s = document.querySelector("#s");
+s.addEventListener("click", () => {
+    alert("paper");
+})
 
 
 
